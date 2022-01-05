@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Shopu</string>
+    <string name="nome_loja"><b><font color="#B87F0D">Loja  Virtual </font></b></string>
+    <string name="texto_botao_entrar">Entrar</string>
+    <string name="faça_cadastro"><b><font color="#B87F0D">Faça  seu Cadastro </font></b></string>
+    <string name="nome"><b><font color="#B87F0D">Nome</font></b></string>
+    <string name="Telefone"><b><font color="#B87F0D">Telefone - (DD)</font></b></string>
+    <string name="Email"><b><font color="#B87F0D">Email</font></b></string>
+    <string name="Senha"><b><font color="#B87F0D">Senha</font></b></string>
+    <string name="texto_cadastro"><font color= "#3F51B5">Não tem uma ? Cadastre-se >Aqui!</font></string>
+
+</resources>
