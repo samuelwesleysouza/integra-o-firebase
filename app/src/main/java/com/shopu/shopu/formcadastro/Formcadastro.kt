@@ -16,6 +16,7 @@ class formcadastro : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+
         binding = ActivityFormcadastroBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
