@@ -20,6 +20,7 @@ class formcadastro : AppCompatActivity() {
         binding = ActivityFormcadastroBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+
         val db = DB()
 
         binding.btEntrar.setOnClickListener {
