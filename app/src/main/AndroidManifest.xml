@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.shopu.shopu">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/logo"
@@ -9,18 +11,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Splash">
-        <activity
-            android:name=".formcadastro.formcadastro"
-            android:exported="true"
-            android:screenOrientation="portrait"/>
 
+        <activity
+            android:name=".telaprincipalprodutos.TelaPrincipalProdutos"
+            android:exported="true" />
+        <activity
+            android:name=".formcadastro.FormCadastro"
+            android:exported="true"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".formloguim.formlogin"
             android:exported="true"
-            android:screenOrientation="portrait"
-            >
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
