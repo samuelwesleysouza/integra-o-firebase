@@ -7,6 +7,7 @@ import com.shopu.shopu.R
 class TelaPrincipalProdutos : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setTheme(R.style.Theme_Main)
         setContentView(R.layout.activity_telaprincipaldeprodutos)
     }
 }

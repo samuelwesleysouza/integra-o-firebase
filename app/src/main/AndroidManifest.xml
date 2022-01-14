@@ -12,10 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Splash">
 
-        <activity
-            android:name=".telaprincipalprodutos.TelaPrincipalProdutos"
-            android:exported="true" />
-        <activity
+       <activity android:name=".telaprincipalprodutos.TelaPrincipalProdutos"
+           android:exported="true"
+           android:screenOrientation="portrait"/>
+
+       <activity
             android:name=".formcadastro.FormCadastro"
             android:exported="true"
             android:screenOrientation="portrait" />
@@ -30,4 +31,5 @@
             </intent-filter>
         </activity>
     </application>
+
 </manifest>

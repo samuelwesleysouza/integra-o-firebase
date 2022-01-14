@@ -8,5 +8,5 @@
     <string name="Email"><b><font color="#B87F0D">Email</font></b></string>
     <string name="Senha"><b><font color="#B87F0D">Senha</font></b></string>
     <string name="texto_cadastro"><font color="#3F51B5">Não tem uma ? Cadastre-se >Aqui!</font></string>
-
+    <string name="texto_dialog_carregango"><font color="#3F51B5">Carregando!</font></string>
 </resources>
