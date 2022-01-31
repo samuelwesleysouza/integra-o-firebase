@@ -21,7 +21,7 @@
             android:exported="true"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".formloguim.formlogin"
+            android:name=".formloguim.FormLogin"
             android:exported="true"
             android:screenOrientation="portrait">
             <intent-filter>

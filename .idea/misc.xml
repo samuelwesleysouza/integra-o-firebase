@@ -6,6 +6,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Samuka/StudioProjects/integra-o-firebase/app/src/main/res/drawable/bg_edit_texto.xml" value="0.1275" />
+        <entry key="..\:/Users/Samuka/StudioProjects/integra-o-firebase/app/src/main/res/drawable/container_formularios.xml" value="0.1275" />
+        <entry key="..\:/Users/Samuka/StudioProjects/integra-o-firebase/app/src/main/res/drawable/ic_botaoperfil.xml" value="0.156" />
+        <entry key="..\:/Users/Samuka/StudioProjects/integra-o-firebase/app/src/main/res/drawable/ic_deslogar.xml" value="0.277" />
+        <entry key="..\:/Users/Samuka/StudioProjects/integra-o-firebase/app/src/main/res/drawable/ic_menu_lateral.xml" value="0.277" />
+        <entry key="..\:/Users/Samuka/StudioProjects/integra-o-firebase/app/src/main/res/drawable/ic_pedidos.xml" value="0.277" />
+        <entry key="..\:/Users/Samuka/StudioProjects/integra-o-firebase/app/src/main/res/drawable/ic_perfil.xml" value="0.277" />
+        <entry key="..\:/Users/Samuka/StudioProjects/integra-o-firebase/app/src/main/res/drawable/splash.xml" value="0.1275" />
+        <entry key="..\:/Users/Samuka/StudioProjects/integra-o-firebase/app/src/main/res/layout/activity_formlogin.xml" value="0.17481884057971014" />
+        <entry key="..\:/Users/Samuka/StudioProjects/integra-o-firebase/app/src/main/res/layout/activity_telaprincipaldeprodutos.xml" value="0.17481884057971014" />
+        <entry key="..\:/Users/Samuka/StudioProjects/integra-o-firebase/app/src/main/res/menu/menu_principal.xml" value="0.33" />
         <entry key="..\:/Users/Toni/AndroidStudioProjects/Shopu/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1125" />
         <entry key="..\:/Users/Toni/AndroidStudioProjects/Shopu/app/src/main/res/drawable/bg_edit_texto.xml" value="0.1" />
         <entry key="..\:/Users/Toni/AndroidStudioProjects/Shopu/app/src/main/res/drawable/container_cadastro.xml" value="0.1" />
