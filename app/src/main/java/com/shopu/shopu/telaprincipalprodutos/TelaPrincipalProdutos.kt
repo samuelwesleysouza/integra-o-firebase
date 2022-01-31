@@ -8,6 +8,7 @@ import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.shopu.shopu.R
+import com.shopu.shopu.dialog.DialogPerfilUsuario
 import com.shopu.shopu.formloguim.FormLogin
 
 class TelaPrincipalProdutos : AppCompatActivity() {
@@ -22,9 +23,14 @@ class TelaPrincipalProdutos : AppCompatActivity() {
         return true
     }
 
+    private fun iniciarDialogPerfilUsuario() {
+        val dialogPerfilUsuario = DialogPerfilUsuario(this)
+        dialogPerfilUsuario.iniciarPerfilUsuario()
+    }
+
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
-            R.id.perfil -> Log.d("p", "Perfil usuário")
+            R.id.perfil -> iniciarDialogPerfilUsuario()
             R.id.pedidos -> Log.d("p", "Pedidos")
             R.id.deslogar -> deslogarUsuario()
         }
