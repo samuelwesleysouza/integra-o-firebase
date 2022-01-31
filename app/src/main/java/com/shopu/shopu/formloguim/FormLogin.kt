@@ -15,7 +15,7 @@ import com.shopu.shopu.dialog.DialogCarregando
 import com.shopu.shopu.formcadastro.FormCadastro
 import com.shopu.shopu.telaprincipalprodutos.TelaPrincipalProdutos
 
-class formlogin : AppCompatActivity() {
+class FormLogin : AppCompatActivity() {
 
     lateinit var binding: ActivityFormloginBinding
     override fun onCreate(savedInstanceState: Bundle?) {
