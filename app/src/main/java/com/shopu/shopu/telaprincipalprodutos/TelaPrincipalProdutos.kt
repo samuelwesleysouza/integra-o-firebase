@@ -23,11 +23,6 @@ class TelaPrincipalProdutos : AppCompatActivity() {
         return true
     }
 
-    private fun iniciarDialogPerfilUsuario() {
-        val dialogPerfilUsuario = DialogPerfilUsuario(this)
-        dialogPerfilUsuario.iniciarPerfilUsuario()
-    }
-
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             R.id.perfil -> iniciarDialogPerfilUsuario()
@@ -36,6 +31,12 @@ class TelaPrincipalProdutos : AppCompatActivity() {
         }
 
         return super.onOptionsItemSelected(item)
+    }
+
+        private fun iniciarDialogPerfilUsuario() {
+        val dialogPerfilUsuario = DialogPerfilUsuario(this)
+        dialogPerfilUsuario.iniciarPerfilUsuario()
+        dialogPerfilUsuario.recuperarDadosUsuariosBanco()
     }
 
     private fun deslogarUsuario() {
