@@ -59,7 +59,7 @@
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@id/txt_nomeUsuario"
-        app:layout_constraintStart_toEndOf="@id/email_foto"  />
+        app:layout_constraintStart_toEndOf="@id/email_foto"/>
 
     <Button
         android:id="@+id/bt_deslogar"

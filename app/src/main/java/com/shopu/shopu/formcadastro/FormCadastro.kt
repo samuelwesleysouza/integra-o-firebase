@@ -14,7 +14,6 @@ import com.shopu.shopu.model.DB
 
 class FormCadastro : AppCompatActivity() {
 
-    //lateinit var binding: ActivityFormcadastroBinding
     lateinit var binding: ActivityFormcadastroBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -39,8 +38,6 @@ class FormCadastro : AppCompatActivity() {
                     .addOnCompleteListener { tareffa ->
                         if (tareffa.isSuccessful) {
                             db.salvarDadosUsuarios(nome)
-                            db.salvarDadosUsuarios(senha)
-                            db.salvarDadosUsuarios(email)
                             val snackbar = Snackbar.make(it,
                                 "Cadastro Realizado com sucesso", Snackbar.LENGTH_SHORT)
                             snackbar.setBackgroundTint(Color.DKGRAY)

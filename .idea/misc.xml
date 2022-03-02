@@ -44,6 +44,22 @@
         <entry key="..\:/Users/Toni/AndroidStudioProjects/integra-o-firebase/app/src/main/res/layout/dialog_carregando.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/Toni/AndroidStudioProjects/integra-o-firebase/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2765625" />
         <entry key="..\:/Users/Toni/AndroidStudioProjects/integra-o-firebase/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2765625" />
+        <entry key="..\:/Users/samue/AndroidStudioProjects/StudioProjects/integra-o-firebase/app/src/main/res/drawable/circulo_imagem_perfil.xml" value="0.319" />
+        <entry key="..\:/Users/samue/AndroidStudioProjects/StudioProjects/integra-o-firebase/app/src/main/res/drawable/ic_email_usuario.xml" value="0.319" />
+        <entry key="..\:/Users/samue/AndroidStudioProjects/StudioProjects/integra-o-firebase/app/src/main/res/drawable/ic_launcher_background.xml" value="0.319" />
+        <entry key="..\:/Users/samue/AndroidStudioProjects/StudioProjects/integra-o-firebase/app/src/main/res/drawable/ic_nomeusuario.xml" value="0.319" />
+        <entry key="..\:/Users/samue/AndroidStudioProjects/StudioProjects/integra-o-firebase/app/src/main/res/drawable/ic_pedidos.xml" value="0.319" />
+        <entry key="..\:/Users/samue/AndroidStudioProjects/StudioProjects/integra-o-firebase/app/src/main/res/drawable/ic_perfil.xml" value="0.319" />
+        <entry key="..\:/Users/samue/AndroidStudioProjects/StudioProjects/integra-o-firebase/app/src/main/res/layout/activity_formcadastro.xml" value="0.33" />
+        <entry key="..\:/Users/samue/AndroidStudioProjects/StudioProjects/integra-o-firebase/app/src/main/res/layout/activity_formlogin.xml" value="0.22" />
+        <entry key="..\:/Users/samue/AndroidStudioProjects/StudioProjects/integra-o-firebase/app/src/main/res/layout/activity_telaprincipaldeprodutos.xml" value="0.18" />
+        <entry key="..\:/Users/samue/AndroidStudioProjects/StudioProjects/integra-o-firebase/app/src/main/res/layout/dialog_carregando.xml" value="0.26132246376811596" />
+        <entry key="..\:/Users/samue/AndroidStudioProjects/StudioProjects/integra-o-firebase/app/src/main/res/layout/dialog_perfil_usuario.xml" value="0.26132246376811596" />
+        <entry key="..\:/Users/samue/AndroidStudioProjects/StudioProjects/integra-o-firebase/app/src/main/res/layout/produto_item.xml" value="0.24791666666666667" />
+        <entry key="..\:/Users/samue/StudioProjects/integra-o-firebase/app/src/main/res/layout/activity_formcadastro.xml" value="0.2" />
+        <entry key="..\:/Users/samue/StudioProjects/integra-o-firebase/app/src/main/res/layout/activity_formlogin.xml" value="0.22" />
+        <entry key="..\:/Users/samue/StudioProjects/integra-o-firebase/app/src/main/res/layout/activity_telaprincipaldeprodutos.xml" value="0.2" />
+        <entry key="..\:/Users/samue/StudioProjects/integra-o-firebase/app/src/main/res/layout/dialog_perfil_usuario.xml" value="0.1" />
       </map>
     </option>
   </component>

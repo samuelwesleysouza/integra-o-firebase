@@ -7,6 +7,8 @@
     android:fillViewport="true"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
+
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -15,7 +17,7 @@
 
         <ImageView
             android:id="@+id/logo"
-            android:layout_width="420dp"
+            android:layout_width="0dp"
             android:layout_height="420px"
             android:layout_marginTop="20dp"
             android:src="@drawable/logo"
@@ -37,11 +39,14 @@
 
         <View
             android:id="@+id/container_formularios"
-            android:layout_width="match_parent"
-            android:layout_height="300dp"
-            android:layout_marginStart="20dp"
+            android:layout_width="344dp"
+            android:layout_height="221dp"
             android:layout_marginTop="20dp"
-            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/txt_teladecadastro"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/nome_loja" />
 
         <EditText
@@ -51,13 +56,13 @@
             android:layout_marginStart="40dp"
             android:layout_marginTop="30dp"
             android:layout_marginEnd="40dp"
-            android:background="@drawable/bg_edit_texto"
+            android:background="@android:drawable/screen_background_dark_transparent"
+            android:textColorHint="@color/white"
             android:hint="@string/Email"
             android:inputType="textEmailAddress"
             android:maxLines="1"
             android:padding="15dp"
             app:layout_marginBaseline="50sp"
-            android:backgroundTint="@color/white"
             android:layout_marginBottom="50sp"
             app:layout_constraintTop_toTopOf="@id/container_formularios" />
 
@@ -68,32 +73,32 @@
             android:layout_marginTop="10dp"
             android:layout_marginStart="40dp"
             android:layout_marginEnd="40dp"
-            android:background="@drawable/bg_edit_texto"
-            android:backgroundTint="@color/white"
+            android:background="@android:drawable/screen_background_dark_transparent"
             android:hint="@string/Senha"
             android:inputType="numberPassword"
             android:maxLines="1"
             android:padding="15dp"
-            android:textColorHint="#827717"
+            android:textColorHint="@color/white"
             app:layout_constraintTop_toBottomOf="@id/edit_email"
             app:layout_marginBaseline="50sp"
             tools:layout_editor_absoluteX="40dp" />
 
-           <Button
+        <Button
             android:id="@+id/bt_entrar"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
             android:layout_marginTop="10dp"
-            android:layout_marginEnd="40dp"
+            android:textColorHint="@color/white"
             android:backgroundTint="@color/dark_blue"
+            android:padding="1sp"
             android:text="@string/texto_botao_entrar"
             android:textAllCaps="true"
-            android:padding="1sp"
-            android:background="@color/white"
             android:textSize="18sp"
             android:textStyle="bold"
-            app:layout_constraintTop_toBottomOf="@id/edit_senha"/>
+            app:layout_constraintBottom_toBottomOf="@+id/container_formularios"
+            app:layout_constraintEnd_toEndOf="@+id/edit_senha"
+            app:layout_constraintStart_toStartOf="@+id/container_formularios"
+            app:layout_constraintTop_toBottomOf="@id/edit_senha" />
 
 
         <TextView
@@ -103,8 +108,9 @@
             android:layout_marginTop="50dp"
             android:gravity="center"
             android:text="@string/texto_cadastro"
-            android:textColor="@color/black"
+            android:textColorHint="@color/white"
             android:textSize="20sp"
+            android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/container_formularios" />

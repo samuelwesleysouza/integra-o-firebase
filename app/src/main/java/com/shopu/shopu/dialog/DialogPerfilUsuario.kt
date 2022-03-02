@@ -13,9 +13,6 @@ class DialogPerfilUsuario(private val activity: Activity) {
     lateinit var dialog: AlertDialog
     lateinit var binding: DialogPerfilUsuarioBinding
 
-
-
-
     fun  iniciarPerfilUsuario() {
         val builder = AlertDialog.Builder(activity)
         binding = DialogPerfilUsuarioBinding.inflate(activity.layoutInflater)
@@ -25,11 +22,11 @@ class DialogPerfilUsuario(private val activity: Activity) {
         dialog.show()
     }
 
-    fun recuperarDadosUsuariosBanco() {
+    fun recuperarDadosUsuarioBanco() {
         val nomeUsuario = binding.txtNomeUsuario
         val emailUsuario = binding.txtEmailusuario
         val db = DB()
-        db.recuperarDadosUsuarioPerfil(nomeUsuario,emailUsuario)
+        db.reucuperarDadosUsuarioPerfil(nomeUsuario, emailUsuario)
 
         binding.btDeslogar.setOnClickListener {
             FirebaseAuth.getInstance().signOut()
@@ -40,3 +37,4 @@ class DialogPerfilUsuario(private val activity: Activity) {
 
     }
 }
+
