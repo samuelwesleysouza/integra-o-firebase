@@ -12,18 +12,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Splash">
 
-       <activity android:name=".telaprincipalprodutos.TelaPrincipalProdutos"
-           android:exported="true"
-           android:screenOrientation="fullSensor"/>
-
-       <activity
-            android:name=".formcadastro.FormCadastro"
-            android:exported="true"
-            android:screenOrientation="portrait" />
         <activity
-            android:name=".formloguim.FormLogin"
+            android:name=".Activities.DetalhesProduto.detail_produtos"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.telaprincipalprodutos.TelaPrincipalProdutos"
             android:exported="true"
-            android:screenOrientation="portrait">
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".Activities.FormCadastro.FormCadastro"
+            android:exported="true"
+            android:screenOrientation="fullSensor" />
+
+        <activity
+            android:name=".Activities.formloguim.FormLogin"
+            android:exported="true"
+            android:screenOrientation="fullSensor">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

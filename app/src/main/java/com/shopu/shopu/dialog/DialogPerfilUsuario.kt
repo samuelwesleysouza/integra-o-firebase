@@ -5,7 +5,7 @@ import android.app.AlertDialog
 import android.content.Intent
 import com.google.firebase.auth.FirebaseAuth
 import com.shopu.shopu.databinding.DialogPerfilUsuarioBinding
-import com.shopu.shopu.formloguim.FormLogin
+import com.shopu.shopu.Activities.formloguim.FormLogin
 import com.shopu.shopu.model.DB
 
 class DialogPerfilUsuario(private val activity: Activity) {
@@ -30,7 +30,7 @@ class DialogPerfilUsuario(private val activity: Activity) {
 
         binding.btDeslogar.setOnClickListener {
             FirebaseAuth.getInstance().signOut()
-        val intent = Intent(activity,FormLogin::class.java)
+        val intent = Intent(activity, FormLogin::class.java)
         activity.startActivity(intent)
         activity.finish()
     }

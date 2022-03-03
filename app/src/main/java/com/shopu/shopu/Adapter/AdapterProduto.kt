@@ -1,10 +1,13 @@
 package com.shopu.shopu.Adapter
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
+import com.shopu.shopu.Activities.DetalhesProduto.detail_produtos
 import com.shopu.shopu.databinding.ProdutoItemBinding
 import com.shopu.shopu.model.Produto
 
@@ -17,9 +20,14 @@ class AdapterProduto(val context: Context, val lista_produtos: MutableList<Produ
     }
 
     override fun onBindViewHolder(holder: ProdutoViewHolder, position: Int) {
-        lista_produtos.get(position).foto?.let { holder.fotoProduto.setImageResource(it) }
+        Glide.with(context).load(lista_produtos.get(position).foto).into(holder.fotoProduto)
         holder.nomeProduto.text = lista_produtos.get(position).nome
-        holder.precoProduto.text = lista_produtos.get(position).preco
+        holder.precoProduto.text = " R$ ${lista_produtos.get(position).preco}" //essa concatenização e para mostrar os $ dos valores dos produtos
+
+       holder.itemView.setOnClickListener {
+           val intent = Intent(context,detail_produtos::class.java)//podemos usar o itemview podemos usar o setOnclicklister ou pode usar setOnclick que e o longo
+           context.startActivities(arrayOf(intent))  // tivemos que colocar nessa intencao o context para ele ir de item a item para os detalhes caso nao tenha vc vai para a pg
+       }
     }
 
     override fun getItemCount() = lista_produtos.size
@@ -30,5 +38,4 @@ class AdapterProduto(val context: Context, val lista_produtos: MutableList<Produ
         val precoProduto = binding.precoProduto
 
     }
-
 }

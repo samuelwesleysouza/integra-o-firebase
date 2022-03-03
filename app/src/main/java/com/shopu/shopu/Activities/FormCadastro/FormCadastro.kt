@@ -1,4 +1,4 @@
-package com.shopu.shopu.formcadastro
+package com.shopu.shopu.Activities.FormCadastro
 
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
@@ -8,7 +8,6 @@ import com.google.firebase.FirebaseNetworkException
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseAuthUserCollisionException
 import com.google.firebase.auth.FirebaseAuthWeakPasswordException
-import com.shopu.shopu.R
 import com.shopu.shopu.databinding.ActivityFormcadastroBinding
 import com.shopu.shopu.model.DB
 

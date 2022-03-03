@@ -1,4 +1,4 @@
-package com.shopu.shopu.formloguim
+package com.shopu.shopu.Activities.formloguim
 
 import android.content.Intent
 import android.graphics.Color
@@ -11,8 +11,8 @@ import com.google.firebase.auth.FirebaseAuth
 import com.shopu.shopu.R
 import com.shopu.shopu.databinding.ActivityFormloginBinding
 import com.shopu.shopu.dialog.DialogCarregando
-import com.shopu.shopu.formcadastro.FormCadastro
-import com.shopu.shopu.telaprincipalprodutos.TelaPrincipalProdutos
+import com.shopu.shopu.Activities.FormCadastro.FormCadastro
+import com.shopu.shopu.Activities.telaprincipalprodutos.TelaPrincipalProdutos
 
 class FormLogin : AppCompatActivity() {
 
@@ -27,7 +27,7 @@ class FormLogin : AppCompatActivity() {
         val dialogCarregando = DialogCarregando(this)
 
         binding.txtTeladecadastro.setOnClickListener {
-            val intent = Intent(this,FormCadastro::class.java)
+            val intent = Intent(this, FormCadastro::class.java)
             startActivity(intent)
         }
 
@@ -50,7 +50,7 @@ class FormLogin : AppCompatActivity() {
                         if (tarefa.isSuccessful) {
                             dialogCarregando.iniciarCarregamentoAlertDialog()
                             Handler(Looper.getMainLooper()).postDelayed({
-                                val intent = Intent(this,TelaPrincipalProdutos::class.java)
+                                val intent = Intent(this, TelaPrincipalProdutos::class.java)
                                 startActivity(intent)
                                 finish()
                                 dialogCarregando.liberarAlertaDialog()

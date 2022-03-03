@@ -1,4 +1,4 @@
-package com.shopu.shopu.telaprincipalprodutos
+package com.shopu.shopu.Activities.telaprincipalprodutos
 
 import android.content.Intent
 import android.os.Bundle
@@ -12,7 +12,8 @@ import com.shopu.shopu.Adapter.AdapterProduto
 import com.shopu.shopu.R
 import com.shopu.shopu.databinding.ActivityTelaprincipaldeprodutosBinding
 import com.shopu.shopu.dialog.DialogPerfilUsuario
-import com.shopu.shopu.formloguim.FormLogin
+import com.shopu.shopu.Activities.formloguim.FormLogin
+import com.shopu.shopu.model.DB
 import com.shopu.shopu.model.Produto
 
 class TelaPrincipalProdutos : AppCompatActivity() {
@@ -33,27 +34,8 @@ class TelaPrincipalProdutos : AppCompatActivity() {
         adapterProduto = AdapterProduto(this,lista_produtos)
         recycler_produtos.adapter = adapterProduto
 
-        itensDelista()
-
-    }
-    fun itensDelista(){
-        val produto1 = Produto(R.drawable.logo,"Sapato de couro","R$150,00")
-        lista_produtos.add(produto1)
-
-        val produto2 = Produto(R.drawable.logo,"Sapato de couro","R$150,00")
-        lista_produtos.add(produto2)
-
-        val produto3 = Produto(R.drawable.logo,"Sapato de couro","R$150,00")
-        lista_produtos.add(produto3)
-
-        val produto4 = Produto(R.drawable.logo,"Sapato de couro","R$150,00")
-        lista_produtos.add(produto4)
-
-        val produto5 = Produto(R.drawable.logo,"Sapato de couro","R$150,00")
-        lista_produtos.add(produto5)
-
-        val produto6 = Produto(R.drawable.logo,"Spat de couro","R$150,00")
-        lista_produtos.add(produto6)
+       val db = DB()
+        db.obterListaDeProdutos(lista_produtos,adapterProduto)// essa variavel para completar e obter a lista de produtos
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {

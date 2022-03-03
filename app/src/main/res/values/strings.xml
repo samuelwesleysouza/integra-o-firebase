@@ -14,4 +14,14 @@
     <string name="menu_item_deslogar">Sair da Sessão</string>
     <string name="texto_botao_deslogar">Sair</string>
     <string name="cadastre_se">Cadastre-se</string>
+    <string name="titulo_escolha_tamano_calcado">Escolha o Tamanho</string>
+    <string name="titulo_preco_produto">Preco Produto</string>
+    <string name="texto_botao_finzalizar_pedido">Finalizar Pedido</string>
+    <string name="sapato_de_couro">Sapato de Couro</string>
+    <string name="r_150_00">R$150.00</string>
+    <string name="_42">42</string>
+    <string name="_41">41</string>
+    <string name="_40">40</string>
+    <string name="_38">38</string>
+    <string name="_39">39</string>
 </resources>

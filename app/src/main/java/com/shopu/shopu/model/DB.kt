@@ -4,6 +4,8 @@ import android.widget.TextView
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.DocumentReference
 import com.google.firebase.firestore.FirebaseFirestore
+import com.shopu.shopu.Adapter.AdapterProduto
+
 class DB {
     fun salvarDadosUsuarios(nome: String) {
         val usuarioID = FirebaseAuth.getInstance().currentUser!!.uid
@@ -32,7 +34,23 @@ class DB {
             }
         }
     }
-}
+
+    fun obterListaDeProdutos(lista_produtos: MutableList<Produto>, adapter_produto: AdapterProduto){
+
+        val db = FirebaseFirestore.getInstance()// Base inteira para buscar a lista que criamos no Banco de dados dos Produtos e preço nomes
+        db.collection("Produtos").get()
+            .addOnCompleteListener { tarefa ->
+                if (tarefa.isSuccessful){
+                    for (documento in tarefa.result!!) {
+                    val produto = documento.toObject(Produto::class.java)
+                        lista_produtos.add(produto)
+                        adapter_produto.notifyDataSetChanged()//Apos ir para tela de Produtos para criar a variavel db do banco de dados
+                   }
+                }
+            }
+        }
+    }
+
 
 
 
