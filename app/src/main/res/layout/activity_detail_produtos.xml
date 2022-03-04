@@ -10,7 +10,7 @@
     <ImageView
         android:id="@+id/foto_tenis"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="320dp"
         android:scaleType="centerCrop"
         android:src="@color/black"/>
 
@@ -46,27 +46,65 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/_38" />
+            android:text="@string/_38"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@drawable/radio_text_color"
+            android:background="@drawable/radio_selector"
+            android:button="@android:color/transparent"
+            android:layout_marginEnd="10dp"
+            />
+<!--tivemos que buscar no text color os radios que criamos text_color e o seletor e colocamos o buton
+ transparente para ele ficar transparente em si e o restante segue  a regra das margim negrito etc. -->
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/_39" />
+            android:text="@string/_39"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@drawable/radio_text_color"
+            android:background="@drawable/radio_selector"
+            android:button="@android:color/transparent"
+            android:layout_marginEnd="10dp"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/_40" />
+            android:text="@string/_40"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@drawable/radio_text_color"
+            android:background="@drawable/radio_selector"
+            android:button="@android:color/transparent"
+            android:layout_marginEnd="10dp"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/_41" />
+            android:text="@string/_41"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@drawable/radio_text_color"
+            android:background="@drawable/radio_selector"
+            android:button="@android:color/transparent"
+            android:layout_marginEnd="10dp"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/_42" />
+            android:text="@string/_42"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@drawable/radio_text_color"
+            android:background="@drawable/radio_selector"
+            android:button="@android:color/transparent"
+            android:layout_marginEnd="10dp"/>
 
     </RadioGroup>
 
