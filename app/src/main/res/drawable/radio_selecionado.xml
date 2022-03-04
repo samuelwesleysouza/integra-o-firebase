@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid android:color="@color/dark_blue"/>
+    <corners android:radius="8dp"/>
+    </shape>
+
+<!-- esse botao e apenas padrao com aredondamento e apos criamos mais um para fazer o fechamento
+02 SEGUNDA INTENÇÃO

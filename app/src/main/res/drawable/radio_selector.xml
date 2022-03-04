@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_checked="true"
+        android:drawable="@drawable/radio_selecionado"/>
+
+    <item android:state_checked="false"
+        android:drawable="@drawable/radio_nomal"/>
+
+
+</selector>
+
+<!-- state_checked true se o botao for checado nos vamos querer que a cor dele fica azul
+state_checked false se o nosso botao nao for selecionado ficara com a cor branca
+
+no mesmo montar outro botao com seletor com as cor do texto para obdcer a regra
+
+3 SELEÇÃO DO SEGUIMENTO PG03

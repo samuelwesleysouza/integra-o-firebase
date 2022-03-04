@@ -26,6 +26,9 @@ class AdapterProduto(val context: Context, val lista_produtos: MutableList<Produ
 
        holder.itemView.setOnClickListener {
            val intent = Intent(context,detail_produtos::class.java)//podemos usar o itemview podemos usar o setOnclicklister ou pode usar setOnclick que e o longo
+           intent.putExtra("foto",lista_produtos.get(position).foto)
+           intent.putExtra("nome",lista_produtos.get(position).nome)//putExtra significa para puchar os dados da lista para as inclusoes dos detalhes
+           intent.putExtra("preco",lista_produtos.get(position).preco)//apos o put temos que ir para tela de detail . para nos inflar para confg viewbinding
            context.startActivities(arrayOf(intent))  // tivemos que colocar nessa intencao o context para ele ir de item a item para os detalhes caso nao tenha vc vai para a pg
        }
     }
