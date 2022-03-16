@@ -4,29 +4,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/white"
-    tools:context=".Activities.DetalhesProduto.detail_produtos">
+    android:background="@color/white">
 
     <ImageView
         android:id="@+id/foto_tenis"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="300dp"
         android:scaleType="centerCrop"
         android:src="@color/black"/>
 
     <TextView
-        android:id="@+id/nome_produto"
+        android:id="@+id/nomeProduto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="20dp"
-        android:gravity="center"
         android:text="@string/sapato_de_couro"
         android:textSize="18sp"
-        android:textStyle="bold" />
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
 
-    <TextView
+      <TextView
         android:id="@+id/escolha_tamanho"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -44,29 +42,70 @@
         android:orientation="horizontal">
 
         <RadioButton
+            android:id="@+id/tamanho_38"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/_38" />
+            android:text="@string/_38"
+            android:textColor="@drawable/radio_text_color"
+            android:background="@drawable/radio_selector"
+            android:button="@android:color/transparent"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginEnd="10dp"
+            />
 
         <RadioButton
+            android:id="@+id/tamanho_39"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/_39" />
+            android:text="@string/_39"
+            android:textColor="@drawable/radio_text_color"
+            android:background="@drawable/radio_selector"
+            android:button="@android:color/transparent"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginEnd="10dp"/>
 
         <RadioButton
+            android:id="@+id/tamanho_40"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/_40" />
+            android:text="@string/_40"
+            android:textColor="@drawable/radio_text_color"
+            android:background="@drawable/radio_selector"
+            android:button="@android:color/transparent"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginEnd="10dp"/>
 
         <RadioButton
+            android:id="@+id/tamanho_41"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/_41" />
+            android:text="@string/_41"
+            android:textColor="@drawable/radio_text_color"
+            android:background="@drawable/radio_selector"
+            android:button="@android:color/transparent"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginEnd="10dp"/>
 
         <RadioButton
+            android:id="@+id/tamanho_42"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/_42" />
+            android:text="@string/_42"
+            android:textColor="@drawable/radio_text_color"
+            android:background="@drawable/radio_selector"
+            android:button="@android:color/transparent"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginEnd="10dp"/>
 
     </RadioGroup>
 
@@ -79,7 +118,8 @@
         android:text="@string/titulo_preco_produto"
         android:textColor="@color/black"
         android:textSize="25sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        />
 
     <TextView
         android:id="@+id/preco"

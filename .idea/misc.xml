@@ -1,79 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BuildAttributionWarningsFilter">
-    <option name="noGCSettingWarning" value="true" />
-  </component>
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Samuka/StudioProjects/integra-o-firebase/app/src/main/res/drawable/bg_edit_texto.xml" value="0.1275" />
-        <entry key="..\:/Users/Samuka/StudioProjects/integra-o-firebase/app/src/main/res/drawable/circulo_imagem_perfil.xml" value="0.2055" />
-        <entry key="..\:/Users/Samuka/StudioProjects/integra-o-firebase/app/src/main/res/drawable/container_formularios.xml" value="0.1275" />
-        <entry key="..\:/Users/Samuka/StudioProjects/integra-o-firebase/app/src/main/res/drawable/ic_botaoperfil.xml" value="0.156" />
-        <entry key="..\:/Users/Samuka/StudioProjects/integra-o-firebase/app/src/main/res/drawable/ic_deslogar.xml" value="0.277" />
-        <entry key="..\:/Users/Samuka/StudioProjects/integra-o-firebase/app/src/main/res/drawable/ic_email_usuario.xml" value="0.2055" />
-        <entry key="..\:/Users/Samuka/StudioProjects/integra-o-firebase/app/src/main/res/drawable/ic_menu_lateral.xml" value="0.277" />
-        <entry key="..\:/Users/Samuka/StudioProjects/integra-o-firebase/app/src/main/res/drawable/ic_nome_usuario.xml" value="0.2055" />
-        <entry key="..\:/Users/Samuka/StudioProjects/integra-o-firebase/app/src/main/res/drawable/ic_pedidos.xml" value="0.277" />
-        <entry key="..\:/Users/Samuka/StudioProjects/integra-o-firebase/app/src/main/res/drawable/ic_perfil.xml" value="0.277" />
-        <entry key="..\:/Users/Samuka/StudioProjects/integra-o-firebase/app/src/main/res/drawable/splash.xml" value="0.1275" />
-        <entry key="..\:/Users/Samuka/StudioProjects/integra-o-firebase/app/src/main/res/layout/activity_formcadastro.xml" value="0.3374094202898551" />
-        <entry key="..\:/Users/Samuka/StudioProjects/integra-o-firebase/app/src/main/res/layout/activity_formlogin.xml" value="0.17481884057971014" />
-        <entry key="..\:/Users/Samuka/StudioProjects/integra-o-firebase/app/src/main/res/layout/activity_telaprincipaldeprodutos.xml" value="0.17481884057971014" />
-        <entry key="..\:/Users/Samuka/StudioProjects/integra-o-firebase/app/src/main/res/layout/dialog_perfil_usuario.xml" value="0.18" />
-        <entry key="..\:/Users/Samuka/StudioProjects/integra-o-firebase/app/src/main/res/menu/menu_principal.xml" value="0.33" />
-        <entry key="..\:/Users/Toni/AndroidStudioProjects/Shopu/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1125" />
-        <entry key="..\:/Users/Toni/AndroidStudioProjects/Shopu/app/src/main/res/drawable/bg_edit_texto.xml" value="0.1" />
-        <entry key="..\:/Users/Toni/AndroidStudioProjects/Shopu/app/src/main/res/drawable/container_cadastro.xml" value="0.1" />
-        <entry key="..\:/Users/Toni/AndroidStudioProjects/Shopu/app/src/main/res/drawable/container_formularios.xml" value="0.14" />
-        <entry key="..\:/Users/Toni/AndroidStudioProjects/Shopu/app/src/main/res/drawable/ic_launcher_background.xml" value="0.14791666666666667" />
-        <entry key="..\:/Users/Toni/AndroidStudioProjects/Shopu/app/src/main/res/drawable/splah.xml" value="0.1125" />
-        <entry key="..\:/Users/Toni/AndroidStudioProjects/Shopu/app/src/main/res/drawable/splash.xml" value="0.18958333333333333" />
-        <entry key="..\:/Users/Toni/AndroidStudioProjects/Shopu/app/src/main/res/drawable/tela_cadastro.xml" value="0.1" />
-        <entry key="..\:/Users/Toni/AndroidStudioProjects/Shopu/app/src/main/res/layout/activity_formcadastro.xml" value="0.1" />
-        <entry key="..\:/Users/Toni/AndroidStudioProjects/Shopu/app/src/main/res/layout/activity_formlogin.xml" value="0.1" />
-        <entry key="..\:/Users/Toni/AndroidStudioProjects/Shopu/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/Toni/AndroidStudioProjects/Shopu/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.14791666666666667" />
-        <entry key="..\:/Users/Toni/AndroidStudioProjects/Shopu/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.14791666666666667" />
-        <entry key="..\:/Users/Toni/AndroidStudioProjects/integra-o-firebase/app/src/main/res/drawable/bg_edit_texto.xml" value="0.28072916666666664" />
-        <entry key="..\:/Users/Toni/AndroidStudioProjects/integra-o-firebase/app/src/main/res/drawable/splash.xml" value="0.2765625" />
-        <entry key="..\:/Users/Toni/AndroidStudioProjects/integra-o-firebase/app/src/main/res/layout/activity_formcadastro.xml" value="0.2" />
-        <entry key="..\:/Users/Toni/AndroidStudioProjects/integra-o-firebase/app/src/main/res/layout/activity_formlogin.xml" value="0.25885416666666666" />
-        <entry key="..\:/Users/Toni/AndroidStudioProjects/integra-o-firebase/app/src/main/res/layout/activity_tela_principal_produtos.xml" value="0.1" />
-        <entry key="..\:/Users/Toni/AndroidStudioProjects/integra-o-firebase/app/src/main/res/layout/activity_telaprincipaldeprodutos.xml" value="0.1286727456940223" />
-        <entry key="..\:/Users/Toni/AndroidStudioProjects/integra-o-firebase/app/src/main/res/layout/dialog_carregando.xml" value="0.20520833333333333" />
-        <entry key="..\:/Users/Toni/AndroidStudioProjects/integra-o-firebase/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2765625" />
-        <entry key="..\:/Users/Toni/AndroidStudioProjects/integra-o-firebase/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2765625" />
-        <entry key="..\:/Users/samue/AndroidStudioProjects/StudioProjects/integra-o-firebase/app/src/main/res/drawable/circulo_imagem_perfil.xml" value="0.319" />
-        <entry key="..\:/Users/samue/AndroidStudioProjects/StudioProjects/integra-o-firebase/app/src/main/res/drawable/ic_email_usuario.xml" value="0.319" />
-        <entry key="..\:/Users/samue/AndroidStudioProjects/StudioProjects/integra-o-firebase/app/src/main/res/drawable/ic_launcher_background.xml" value="0.319" />
-        <entry key="..\:/Users/samue/AndroidStudioProjects/StudioProjects/integra-o-firebase/app/src/main/res/drawable/ic_nomeusuario.xml" value="0.319" />
-        <entry key="..\:/Users/samue/AndroidStudioProjects/StudioProjects/integra-o-firebase/app/src/main/res/drawable/ic_pedidos.xml" value="0.319" />
-        <entry key="..\:/Users/samue/AndroidStudioProjects/StudioProjects/integra-o-firebase/app/src/main/res/drawable/ic_perfil.xml" value="0.319" />
-        <entry key="..\:/Users/samue/AndroidStudioProjects/StudioProjects/integra-o-firebase/app/src/main/res/drawable/splash.xml" value="0.262" />
-        <entry key="..\:/Users/samue/AndroidStudioProjects/StudioProjects/integra-o-firebase/app/src/main/res/layout/activity_detail_produtos.xml" value="0.25" />
-        <entry key="..\:/Users/samue/AndroidStudioProjects/StudioProjects/integra-o-firebase/app/src/main/res/layout/activity_detail_produtos2.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/samue/AndroidStudioProjects/StudioProjects/integra-o-firebase/app/src/main/res/layout/activity_detalhes_produto.xml" value="0.2791666666666667" />
-        <entry key="..\:/Users/samue/AndroidStudioProjects/StudioProjects/integra-o-firebase/app/src/main/res/layout/activity_formcadastro.xml" value="0.33" />
-        <entry key="..\:/Users/samue/AndroidStudioProjects/StudioProjects/integra-o-firebase/app/src/main/res/layout/activity_formlogin.xml" value="0.22" />
-        <entry key="..\:/Users/samue/AndroidStudioProjects/StudioProjects/integra-o-firebase/app/src/main/res/layout/activity_telaprincipaldeprodutos.xml" value="0.18" />
-        <entry key="..\:/Users/samue/AndroidStudioProjects/StudioProjects/integra-o-firebase/app/src/main/res/layout/dialog_carregando.xml" value="0.26132246376811596" />
-        <entry key="..\:/Users/samue/AndroidStudioProjects/StudioProjects/integra-o-firebase/app/src/main/res/layout/dialog_perfil_usuario.xml" value="0.26132246376811596" />
-        <entry key="..\:/Users/samue/AndroidStudioProjects/StudioProjects/integra-o-firebase/app/src/main/res/layout/produto_item.xml" value="0.24791666666666667" />
-        <entry key="..\:/Users/samue/AndroidStudioProjects/StudioProjects/integra-o-firebase/app/src/main/res/menu/menu_principal.xml" value="0.35104166666666664" />
-        <entry key="..\:/Users/samue/AndroidStudioProjects/StudioProjects/integra-o-firebase/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.262" />
-        <entry key="..\:/Users/samue/AndroidStudioProjects/StudioProjects/integra-o-firebase/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.262" />
-        <entry key="..\:/Users/samue/StudioProjects/integra-o-firebase/app/src/main/res/layout/activity_formcadastro.xml" value="0.2" />
-        <entry key="..\:/Users/samue/StudioProjects/integra-o-firebase/app/src/main/res/layout/activity_formlogin.xml" value="0.22" />
-        <entry key="..\:/Users/samue/StudioProjects/integra-o-firebase/app/src/main/res/layout/activity_telaprincipaldeprodutos.xml" value="0.2" />
-        <entry key="..\:/Users/samue/StudioProjects/integra-o-firebase/app/src/main/res/layout/dialog_perfil_usuario.xml" value="0.1" />
+        <entry key="..\:/Users/samue/AndroidStudioProjects/StudioProjects/integra-o-firebase/app/src/main/res/drawable/radio_selecionado.xml" value="0.2055" />
+        <entry key="..\:/Users/samue/AndroidStudioProjects/StudioProjects/integra-o-firebase/app/src/main/res/drawable/radio_selector.xml" value="0.2055" />
+        <entry key="..\:/Users/samue/AndroidStudioProjects/StudioProjects/integra-o-firebase/app/src/main/res/drawable/radio_text_color.xml" value="0.2055" />
+        <entry key="..\:/Users/samue/AndroidStudioProjects/StudioProjects/integra-o-firebase/app/src/main/res/drawable/radios_normal.xml" value="0.1" />
+        <entry key="..\:/Users/samue/AndroidStudioProjects/StudioProjects/integra-o-firebase/app/src/main/res/layout/activity_detail_produtos.xml" value="0.1707193515704154" />
+        <entry key="..\:/Users/samue/AndroidStudioProjects/StudioProjects/integra-o-firebase/app/src/main/res/layout/activity_pagamento.xml" value="0.17572463768115942" />
+        <entry key="..\:/Users/samue/AndroidStudioProjects/StudioProjects/integra-o-firebase/app/src/main/res/layout/activity_telaprincipaldeprodutos.xml" value="0.2125" />
+        <entry key="..\:/Users/samue/AndroidStudioProjects/StudioProjects/integra-o-firebase/app/src/main/res/layout/produto_item.xml" value="0.17572463768115942" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/build/classes" />
-  </component>
-  <component name="ProjectType">
-    <option name="id" value="Android" />
-  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
 </project>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid android:color="@color/dark_blue"/>
+    <corners android:radius="8dp"/>
+
+
+</shape>
+
+<!-- apenas para quando o radios for selecionado inicia uma cor azul com o arredondamento 8dp
+PG 02

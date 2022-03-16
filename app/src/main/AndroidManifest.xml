@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.shopu.shopu">
+    package="com.shopu.shopu" >
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -10,11 +10,15 @@
         android:label="Shopu-Br"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Splash">
-
+        android:theme="@style/Theme.Splash" >
         <activity
-            android:name=".Activities.DetalhesProduto.detail_produtos"
-            android:exported="true" />
+            android:name=".Activities.Pagamento.Pagamento"
+            android:exported="true"
+            android:screenOrientation="fullSensor"/>
+        <activity
+            android:name=".Activities.DetalhesProduto.Detail_produtos"
+            android:exported="true"
+            android:screenOrientation="fullSensor"/>
         <activity
             android:name=".Activities.telaprincipalprodutos.TelaPrincipalProdutos"
             android:exported="true"
@@ -23,11 +27,10 @@
             android:name=".Activities.FormCadastro.FormCadastro"
             android:exported="true"
             android:screenOrientation="fullSensor" />
-
         <activity
             android:name=".Activities.formloguim.FormLogin"
             android:exported="true"
-            android:screenOrientation="fullSensor">
+            android:screenOrientation="fullSensor" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

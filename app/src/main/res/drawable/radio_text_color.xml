@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_checked="true"
+        android:color="@color/white"/>
+
+    <item android:state_checked="false"
+        android:color="@color/black"/>
+
+</selector>
+
+<!-- Quando o meu numero do radios for selecionado quero a cor branca
+
+quando o radios do meu numero nao for selecionado quero ele preto alteração do numero .

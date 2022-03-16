@@ -1,4 +1,4 @@
-package com.shopu.shopu
+package com.shopu.shopu.Activities.DetalhesProduto
 
 import android.content.Intent
 import android.graphics.Color
@@ -9,14 +9,15 @@ import com.google.android.material.snackbar.Snackbar
 import com.shopu.shopu.Activities.Pagamento.Pagamento
 import com.shopu.shopu.databinding.ActivityDetailProdutosBinding
 
-class detail_produtos : AppCompatActivity() {
+class Detail_produtos : AppCompatActivity() {
 
     lateinit var binding: ActivityDetailProdutosBinding
+
     var tamanho_calcado = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_detail_produtos)
+        binding = ActivityDetailProdutosBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         val foto = intent.extras?.getString("foto")
@@ -28,7 +29,6 @@ class detail_produtos : AppCompatActivity() {
         binding.preco.text = "R$ ${preco}"
 
         binding.botaoFinalizarpedido.setOnClickListener {
-
             val tamanho_calcado_38 = binding.tamanho38
             val tamanho_calcado_39 = binding.tamanho39
             val tamanho_calcado_40 = binding.tamanho40
@@ -43,13 +43,8 @@ class detail_produtos : AppCompatActivity() {
                 tamanho_calcado_42.isChecked -> tamanho_calcado = "42"
             }
 
-            if (!tamanho_calcado_38.isChecked &&
-                !tamanho_calcado_39.isChecked &&
-                !tamanho_calcado_40.isChecked &&
-                !tamanho_calcado_41.isChecked &&
-                !tamanho_calcado_42.isChecked
+            if (!tamanho_calcado_38.isChecked && !tamanho_calcado_39.isChecked && !tamanho_calcado_40.isChecked && !tamanho_calcado_41.isChecked && !tamanho_calcado_42.isChecked
             ) {
-
                 val snackbar =
                     Snackbar.make(it, "Escolha o tamanho do calçado!", Snackbar.LENGTH_SHORT)
                 snackbar.setBackgroundTint(Color.RED)
